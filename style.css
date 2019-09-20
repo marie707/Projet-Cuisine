@@ -14,30 +14,44 @@ h1
 
 .présentation
 { 
-   font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
-}
-
-.présentation
-{
+   font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif; 
    text-align: center;
-}
-
-.présentation
-{
    font-size: 24px;
 }
 
 h1
 {
    text-align: center;
-}
-
-h1
-{
    font-size: 36px;
+   font-style: italic;
 }
 
-h1
+header
 {
+   background-color: rgb(51, 3, 3);
+}
+
+li
+{
+   color: white;
+   font-weight: bold;
    font-style: italic;
+   font-size: medium;
+}
+
+#nav
+{
+padding: 0; margin:0;
+text-align: right;
+}
+
+#nav li {
+   display: inline;
+   list-style: none;
+}
+
+#nav li
+{
+ display: inline-block;
+ margin: 0 30px;  
 }
