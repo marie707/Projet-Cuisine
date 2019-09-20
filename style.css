@@ -1,0 +1,43 @@
+img {
+   width: 1900px ;
+   height:750px;
+}
+ 
+#logo
+{
+   color: rgb(14, 128, 33);
+}
+h1
+{
+   color: rgb(95, 4, 4)
+}
+
+.présentation
+{ 
+   font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
+}
+
+.présentation
+{
+   text-align: center;
+}
+
+.présentation
+{
+   font-size: 24px;
+}
+
+h1
+{
+   text-align: center;
+}
+
+h1
+{
+   font-size: 36px;
+}
+
+h1
+{
+   font-style: italic;
+}

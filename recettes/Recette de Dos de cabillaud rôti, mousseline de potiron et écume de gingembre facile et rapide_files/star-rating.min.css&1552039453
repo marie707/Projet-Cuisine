@@ -1,0 +1,48 @@
+body{background-color:white !important;color:black}h1{color:black;font-family:oswald;letter-spacing:inherit;font-size:250%}.pub-bloc{background-color:gray !important;width:50%;margin-left:25%;text-align:center;color:white}#breadcrumbs, #breadcrumbs
+a{color:black;font-family:'Oswald',sans-serif;font-weight:300;letter-spacing:1px}.titrecategorie{text-transform:uppercase;font-size:130%;font-weight:bold;font-family:arial;color:#000;letter-spacing:initial;margin:0}select.nb_pers{width:20%;background-color:#ca4b58;color:white;text-align:center;vertical-align:baseline}.listIngredients
+ul{margin-left:0 !important}.listIngredients ul li
+a{text-align:center !important;color:black !important}.descriptionRecette-parents{border:black solid 1px;float:right}.descriptionRecette{text-align:center}.content-steps{font-size:110%;text-align:justify}.border-nico{border:red dashed 2px}.textChef{color:#ca4b58;border:black solid 1px;text-align:center}.sugestion-title{border:#ca4b58 solid 1px;color:#ca4b58;text-align:center;font-weight:bold;padding:1% 0%;text-transform:uppercase;font-size:large}.technique.span4{height:201px !important}.technique
+url{background-size:100% 100% !important;display:block}.technique-video
+iframe{width:100%}.technique-video{position:relative;padding-bottom:15px;padding-bottom:56.25%;height:0;margin-bottom:15px}.technique-video object,
+.technique-video embed,.technique-video
+iframe{position:absolute;top:0;left:0;max-width:100%;max-height:100%}.techniqueurl{background-size:100% 100% !important;display:block;border-radius:0px !important}#notation-indicateurcuisson{height:100px}.myborder{border:black solid 1px}#contenu_recette
+ul{padding:0
+!important;margin:0
+!important}.descriptionRecette{color:black}.suggestion a
+img.player{position:absolute;top:50%;left:50%;width:initial;height:initial;transform:translate(-50%,-50%)}#plc12,#plc1{margin:0
+auto}.encart{width:200px;height:250px;position:fixed;float:right;right:30px;bottom:0px;float:right;perspective:800px;-webkit-perspective:800px;-moz-perspective:800px;-o-perspective:800px;z-index:99999999999999999999999}#cardContainer
+#card{width:100%;height:100%;position:absolute;-webkit-transition:-webkit-transform 1s;-moz-transition:-moz-transform 1s;-o-transition:-o-transform 1s;transition:transform 1s;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;transform-style:preserve-3d}#cardContainer #card
+figure{display:block;height:100%;width:100%;color:white;position:absolute;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform:perspective(800px) rotateY(0deg)}#cardContainer figure
+.card_img{position:relative;top:-10px;height:125px;width:200px;padding:15px}#cardContainer #card .front, #cardContainer #card
+.back{border-top-left-radius:10px;width:230px;height:220px;background:url(https://www.atelierdeschefs.com/images/fr/recettes/detail_recette/bg_encart.png)}#cardContainer
+#i_chef_logo{position:relative;left:50px}#cardContainer
+#ardoise_bg{height:62px;width:230px;position:relative;top:188px;background:url(https://www.atelierdeschefs.com/images/fr/recettes/detail_recette/ardoise.png)}#cardContainer
+#card{-webkit-transform-origin:right center;-moz-transform-origin:right center;-o-transform-origin:right center;transform-origin:right center}#cardContainer #card
+#recto{display:block}#cardContainer #card
+#verso{display:none}#cardContainer
+h2{font-family:'Leckerli One';font-size:16px;line-height:110%;letter-spacing:0;color:#CA4B58;height:39px;max-height:40px;overflow:hidden;text-align:center;display:inline}#cardContainer
+.titreBloc{padding-left:15px;margin-top:5px}#cardContainer
+p.encart_logo{position:absolute;bottom:-5px;left:15px;color:#fff;font-size:13px}#cardContainer
+.play{background-image:url(https://www.atelierdeschefs.com/images/fr/recettes/detail_recette/adc-play.png);background-repeat:no-repeat;height:40px;display:block;position:absolute;bottom:90px;left:41%}#cardContainer .play
+span{visibility:hidden}@media (max-width: 979px){#cardContainer{display:none !important}#cardContainer
+#card{display:none}#cardContainer
+p.encart_logo{display:none}}.owl-carousel .owl-wrapper:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel{display:none;position:relative;width:100%;-ms-touch-action:pan-y}.owl-carousel .owl-wrapper{display:none;position:relative;-webkit-transform:translate3d(0px, 0px, 0px)}.owl-carousel .owl-wrapper-outer{overflow:hidden;position:relative;width:100%}.owl-carousel .owl-wrapper-outer.autoHeight{-webkit-transition:height 500ms ease-in-out;-moz-transition:height 500ms ease-in-out;-ms-transition:height 500ms ease-in-out;-o-transition:height 500ms ease-in-out;transition:height 500ms ease-in-out}.owl-carousel .owl-item{float:left}.owl-controls .owl-page,
+.owl-controls .owl-buttons
+div{cursor:pointer}.owl-controls{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.grabbing{cursor:url(/css/fr/courslive3/grabbing.png) 8 8, move}.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-theme .owl-controls{margin-top:10px;text-align:center}.owl-theme .owl-controls .owl-buttons
+div{color:#FFF;display:inline-block;zoom:1;*display:inline;margin:5px;padding:3px
+10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;background:#869791;filter:Alpha(Opacity=50);opacity:0.5}.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter:Alpha(Opacity=100);opacity:1;text-decoration:none}.owl-theme .owl-controls .owl-page{display:inline-block;zoom:1;*display:inline}.owl-theme .owl-controls .owl-page
+span{display:block;width:12px;height:12px;margin:5px
+7px;filter:Alpha(Opacity=50);opacity:0.5;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:#869791}.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover
+span{filter:Alpha(Opacity=100);opacity:1}.owl-theme .owl-controls .owl-page span.owl-numbers{height:auto;width:auto;color:#FFF;padding:2px
+10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.owl-item.loading{min-height:150px;background:url(/css/fr/courslive3/AjaxLoader.gif) no-repeat center center}/*!
+ * @copyright &copy; Kartik Visweswaran, Krajee.com, 2013 - 2016
+ * @version 4.0.1
+ *
+ * A simple yet powerful JQuery star rating plugin that allows rendering fractional star ratings and supports
+ * Right to Left (RTL) input.
+ *
+ * For more JQuery/Bootstrap plugins and demos visit http://plugins.krajee.com
+ * For more Yii related demos visit http://demos.krajee.com
+ */.rating-container .caption,.rating-container .clear-rating,.rating-container .rating{display:inline-block;vertical-align:middle}.rating-loading{width:25px;height:25px;font-size:0;color:#fff;background:url(https://www.atelierdeschefs.com/images/fr/loading_cours.gif) top left no-repeat;border:none}.rating-container .rating{cursor:default;position:relative;overflow:hidden;white-space:nowrap}.rating-disabled .rating{cursor:not-allowed}.rating-container .star{display:inline-block;margin:0 3px;text-align:center}.rating-container .empty-stars{color:#aaa}.rating-container .filled-stars{position:absolute;left:0;top:0;margin:auto;color:#fde16d;white-space:nowrap;overflow:hidden;-webkit-text-stroke:1px #777;text-shadow:1px 1px #999}.rating-rtl{float:right}.rating-animate .filled-stars{transition:width .25s ease;-o-transition:width .25s ease;-moz-transition:width .25s ease;-webkit-transition:width .25s ease}.rating-rtl .filled-stars{left:auto;right:0;-moz-transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0);-webkit-transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0);-o-transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0);transform:matrix(-1,0,0,1,0,0) translate3d(0,0,0)}.rating-rtl.is-star .filled-stars{right:.06em}.rating-rtl.is-heart .empty-stars{margin-right:.07em}.rating-lg{font-size:3.91em}.rating-md{font-size:3.13em}.rating-sm{font-size:2.5em}.rating-xs{font-size:2em}.rating-xl{font-size:4.89em}.rating-container .clear-rating{color:#aaa;cursor:not-allowed;font-size:60%;padding-right:5px}.clear-rating-active{cursor:pointer!important}.clear-rating-active:hover{color:#843534}.rating-container .caption{color:#999;font-size:60%;margin-top:-.6em;margin-left:5px;margin-right:0}.rating-rtl .caption{margin-right:5px;margin-left:0}@media print{.rating-container .clear-rating{display:none}}

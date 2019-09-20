@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://s0.2mdn.net/3089490/1565175574150/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- META DATA -->
+    <meta name="ad.size" content="width=300,height=250">
+
+    <!-- ALWAYS HTTPS LINKS TO ANY JS OR GOOGLE FONT FILES -->
+ 
+    <script src="./tweenmax_2.0.1_min.js"></script>
+
+    <!-- ADD URL -->
+    <script type="text/javascript">
+        var clickTag = "http://example.com";
+    </script>
+
+    <!-- ADD TITLE -->
+    <title>300x250 Adidas P</title>
+
+    <link type="text/css" href="./main.css" rel="stylesheet">
+<script type="text/javascript">
+    
+  (function() {
+    var MAX_URL_PARAM_LENGTH = 34;
+    var CLICK_X_URL_KEY = 'nx';
+    var CLICK_Y_URL_KEY = 'ny';
+    var CREATIVE_DIMENSIONS_KEY = 'dim';
+    var AD_URL_PARAM = '&adurl=';
+
+    var relegateNavigation = '';
+    var urlParamMap = {};
+
+    urlParamMap[CLICK_X_URL_KEY] = null;
+    urlParamMap[CLICK_Y_URL_KEY] = null;
+    urlParamMap[CREATIVE_DIMENSIONS_KEY] = null;
+
+    var handleClickTagMessage = function(e) {
+      try {
+        var eventData = JSON.parse(e.data);
+      } catch (err) {
+        return;
+      }
+      if (eventData.isInitClickTag) {
+        if (eventData.clickTags) {
+          for (var i = 0; i < eventData.clickTags.length; i++) {
+            var clkTag = eventData.clickTags[i];
+            window[clkTag.name] = clkTag.url;
+          }
+        } else if (eventData.clickTag) {
+          window.clickTag = eventData.clickTag;
+        }
+        relegateNavigation = eventData.relegateNavigation;
+      }
+    };
+
+    var storeClickCoordinates = function(e) {
+      urlParamMap[CLICK_X_URL_KEY] = Math.round(e.clientX);
+      urlParamMap[CLICK_Y_URL_KEY] = Math.round(e.clientY);
+    };
+
+    var getCreativeDimensions = function() {
+      return window.innerWidth + 'x' + window.innerHeight;
+    }
+
+    var getExitClickParams = function(e) {
+      urlParamMap[CREATIVE_DIMENSIONS_KEY] = getCreativeDimensions();
+
+      var exitParams = '';
+      for (var key in urlParamMap) {
+        exitParams += '&' + key + '=';
+        if (urlParamMap[key] !== null) {
+          exitParams += urlParamMap[key];
+        }
+      }
+      return exitParams;
+    }
+
+    var appendExitClickParams = function(url) {
+      var adUrlIndex = url.toLowerCase().indexOf(AD_URL_PARAM);
+      var paramsToBeAdded = getExitClickParams();
+      if (adUrlIndex > -1 && paramsToBeAdded.length <= MAX_URL_PARAM_LENGTH) {
+        url = url.substr(0, adUrlIndex) + paramsToBeAdded +
+          url.substr(adUrlIndex);
+      };
+      return url;
+    };
+
+    if (open.call) {
+      window.open = function(open) {
+        return function(url, name, features) {
+          url = appendExitClickParams(url);
+          if (relegateNavigation === 'parent') {
+            var message = {'clickTag': url, 'isPostClickTag': true};
+            parent.postMessage(JSON.stringify(message), '*');
+          } else {
+            var args = [url, name];
+            if (features) {
+              args.push(features);
+            }
+            open.apply(window, args);
+          }
+        };
+      }(window.open);
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener(
+          'message', handleClickTagMessage, false);
+      window.addEventListener('mousedown', storeClickCoordinates, true);
+    } else {
+      window.attachEvent('onmessage', handleClickTagMessage);
+    }
+  })();
+    
+  </script></head>
+<body>
+
+    <div id="container" onclick="window.open(window.clickTag)">
+         <img src="./f1_boots.jpg" id="f1_boots" class="abs-v" style="visibility: inherit; opacity: 1;">
+       <div id="cta" style="visibility: inherit; opacity: 1; transform: translate3d(0px, 0px, 0px);"></div>
+
+       <img id="c1" src="./IF.png" style="visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">
+       <!-- <img id="c2" src="YOU.png"/> -->
+       <img id="c3" src="./WANT.png" style="visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">
+       <img id="c4" src="./THESE.png" style="visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">
+       <img id="c5" src="./BOOTS.png" style="visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);"> 
+
+       <!-- f2 -->
+       <img id="f2_bg" src="./f2_bg.jpg" class="abs-h" style="visibility: hidden; opacity: 0;">
+       <img id="f2_player" src="./f2_player.png" class="abs-h" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0); visibility: hidden;">
+       <img id="f2_cap" src="./f2_cap.png" class="abs-h" style="visibility: hidden; opacity: 0;">
+
+        <!-- f3 -->
+       <img id="f3_bg" src="./f3_bg.jpg" class="abs-h" style="visibility: hidden; opacity: 0;">
+       <img id="f3_player" src="./f3_player.png" class="abs-h" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0); visibility: hidden;">
+       <img id="f3_cap" src="./f3_cap.png" class="abs-h" style="visibility: hidden; opacity: 0;">
+
+       <!-- f4 -->
+       <img id="f4_bg" src="./f4_bg.jpg" class="abs-h" style="visibility: hidden; opacity: 0;">
+       <img id="f4_player" src="./f4_player.png" class="abs-h" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0); visibility: hidden;">
+       <img id="f4_cap" src="./f4_cap.png" class="abs-h" style="visibility: hidden; opacity: 0;">
+
+       <!-- f5 -->
+       <img id="f5_bg" src="./f5_bg.jpg" class="abs-h" style="visibility: hidden; opacity: 0;">
+       <img id="f5_player" src="./f5_player.png" class="abs-h" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0); visibility: hidden;">
+       <img id="f5_cap" src="./f5_cap.png" class="abs-h" style="visibility: hidden; opacity: 0;">
+
+       <div id="black" style="visibility: hidden; opacity: 0;"></div>
+       
+    </div>
+
+  
+
+
+
+   <script src="./main.js"></script>
+
+</body></html>

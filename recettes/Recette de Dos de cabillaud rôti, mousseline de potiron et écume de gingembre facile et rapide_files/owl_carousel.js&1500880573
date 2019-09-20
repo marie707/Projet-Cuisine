@@ -1,0 +1,2 @@
+$(window).load(function(){var heightmax=0;$('.blockrow').each(function(i,obj){heightmax=0;$(obj).find('.banner_img').each(function(ii,object){if($(object).height()>heightmax)
+heightmax=$(object).height();});$(obj).find('.banner_img').each(function(ii,object){$(object).height(heightmax);});});});;$(document).ready(function carouselOwl(){$(".owl_all_carousel").owlCarousel({singleItem:true});$(".owl_many_item").owlCarousel({singleItem:false});});
