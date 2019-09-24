@@ -28,8 +28,8 @@ h2
 .présentation2
 {
    font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
-   text-align: left
-   font-size: 14px
+   text-align: left;
+   font-size: 24px
 }
 
 h1
@@ -46,7 +46,7 @@ header
 
 li
 {
-   color: rgb(192, 154, 154);
+   color: white;
    font-weight: bold;
    font-style: italic;
    font-size: medium;
@@ -58,7 +58,8 @@ padding: 0; margin:0;
 text-align: right;
 }
 
-#nav li {
+#nav li 
+{
    display: inline;
    list-style: none;
 }
@@ -73,4 +74,38 @@ text-align: right;
 {
    text-align: center;
    font-size: 24px;
+}
+
+.espace
+{
+   height : 30px
+}
+
+th, td 
+{
+   padding: 20px
+}
+
+table
+{
+   margin: auto;
+}
+
+td
+{
+   text-align: center;
+}
+
+#menu
+{
+   border-top: 1px dotted rgb(46, 1, 8);
+   border-bottom: 1px dotted rgb(46, 1, 8);
+   border-left: 1px dotted rgb(46, 1, 8);
+   border-right: 1px dotted rgb(46, 1, 8);
+}
+
+p1
+{
+   font-family: 'Times New Roman', Times, serif
+   text-align: center;
 }
