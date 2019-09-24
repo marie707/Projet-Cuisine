@@ -1,8 +1,0 @@
-div
-.marginB20{margin-bottom:20px}.suggestion
-a{background-color:#fff !important;display:block;margin:5px
-auto 5px auto}.suggestion:not(.heightauto) a
-img{height:140px;width:100%}.suggestion a
-.banner_img{color:#5a5048;width:100%;font-size:110%;font-weight:400}.suggestion a .banner_img
-div{padding:10px
-5px}
