@@ -12,7 +12,7 @@ h1
 {
    color: rgb(95, 4, 4);
    text-align: center;
-   font-size: 36px;
+   font-size: 46px;
    font-style: italic;
 }
 
@@ -26,9 +26,12 @@ h2
 {
    color: blue;
    display: flex;
-   justify-content: center;
-   
-   
+   justify-content: center; 
+}
+
+#restaurant
+{
+   text-align: center
 }
 
 .présentation
@@ -36,13 +39,15 @@ h2
    font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif; 
    text-align: center;
    font-size: 24px;
+   line-height: 2;
 }
 
 .présentation2
 {
    font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
-   text-align: left;
-   font-size: 24px
+   text-align: center;
+   font-size: 18px;
+   line-height: 2;
 }
 
 header
@@ -52,14 +57,20 @@ header
 
 li
 {
-   color: white;
+   
    font-weight: bold;
    font-style: italic;
    font-size: medium;
 }
 
+.pdf
+{
+   color: rgb(200, 76, 204);
+}
+
 #nav
 {
+
 padding: 0; margin:0;
 text-align: right;
 }
@@ -68,11 +79,12 @@ text-align: right;
 {
    display: inline;
    list-style: none;
+   font-size: 24px;
 }
 
 #nav li
 {
- display: inline-block;
+display: inline-block;
  margin: 0 30px;  
 }
 
@@ -100,7 +112,7 @@ table
 a
 {
    text-decoration: none;
-   color: rgb(200, 22, 165);
+   color: rgb(238, 231, 237);
 }
 
 a:active
@@ -125,7 +137,7 @@ td
    border-left: 2px dotted rgb(46, 1, 8);
    border-right: 2px dotted rgb(46, 1, 8);
    border-radius: 60px;
-   background-color: rgb(241, 181, 190);
+   background-color: rgb(247, 204, 210);
 }
 
 #menu1, #menu2, #menu3
@@ -139,7 +151,7 @@ td
 
 .largeur
 {
-   width: 60%;
+   width: 100%;
 }
 
 #menu1,
@@ -154,5 +166,30 @@ td
 
 #menu2
 {
- 
+   margin-left: 40%;
+}
+
+#menu1
+{
+   margin-right: 40%;
+}
+
+#menu3
+{
+   margin-right: 40%;
+}
+
+.coordonnées
+{
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-size: 25px;
+   text-align: center;
+   line-height: 1;
+   color: white;
+}
+
+footer
+{
+   background-color: rgb(46, 1, 8);
 }
