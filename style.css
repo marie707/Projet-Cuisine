@@ -6,16 +6,29 @@
  
 #logo
 {
-   color: rgb(14, 128, 33);
+   color: rgb(226, 128, 210);
 }
 h1
 {
-   color: rgb(95, 4, 4)
+   color: rgb(95, 4, 4);
+   text-align: center;
+   font-size: 36px;
+   font-style: italic;
+}
+
+#titre
+{
+   display: flex;
+   justify-content: center;
 }
 
 h2
 {
-   color: blue
+   color: blue;
+   display: flex;
+   justify-content: center;
+   
+   
 }
 
 .présentation
@@ -30,13 +43,6 @@ h2
    font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
    text-align: left;
    font-size: 24px
-}
-
-h1
-{
-   text-align: center;
-   font-size: 36px;
-   font-style: italic;
 }
 
 header
@@ -91,21 +97,62 @@ table
    margin: auto;
 }
 
+a
+{
+   text-decoration: none;
+   color: rgb(200, 22, 165);
+}
+
+a:active
+{
+   background-color:  #FFCC66;
+}
+
+h3
+{
+   font-size: 30px;
+}
+
 td
 {
    text-align: center;
 }
 
-#menu
+#menu1, #menu2, #menu3
 {
-   border-top: 1px dotted rgb(46, 1, 8);
-   border-bottom: 1px dotted rgb(46, 1, 8);
-   border-left: 1px dotted rgb(46, 1, 8);
-   border-right: 1px dotted rgb(46, 1, 8);
+   border-top: 2px dotted rgb(46, 1, 8);
+   border-bottom: 2px dotted rgb(46, 1, 8);
+   border-left: 2px dotted rgb(46, 1, 8);
+   border-right: 2px dotted rgb(46, 1, 8);
+   border-radius: 60px;
+   background-color: rgb(241, 181, 190);
 }
 
-p1
+#menu1, #menu2, #menu3
 {
-   font-family: 'Times New Roman', Times, serif
+   
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-size: 25px;
    text-align: center;
+}
+
+.largeur
+{
+   width: 60%;
+}
+
+#menu1,
+{
+   line-height: 1;
+}
+
+#menu2, #menu3
+{
+   line-height: 2;
+}
+
+#menu2
+{
+ 
 }
