@@ -194,8 +194,32 @@ footer
    background-color: rgb(46, 1, 8);
 }
 
-.format
+form
 {
    line-height: 40px;
    font-size:20px;
+}
+
+legend
+{
+   color: rgb(95, 4, 4);
+   text-align: center;
+   font-size: 46px;
+   font-style: italic;
+}
+
+input: 
+{  
+border: 2px solid black;
+}
+
+
+input:valid
+{
+   border: 1px solid green;
+}
+
+input:invalid
+{
+   border: 2px dashed red;
 }

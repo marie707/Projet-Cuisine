@@ -36,41 +36,41 @@
 
         </section>
     </div>
-    <form class="format">
-        <h1> Vos coordonnées </h1>
+    <form method="post" action="traitement.php">
+        <legend> Vos coordonnées </legend>
         <label for="Nom"> NOM : </label>
         <input type="text" style="width:200px; height:24px;font-size:18px" name="Nom" id="Nom" maxlength="50"
-            placeholder="Votre Nom" autofocus />
+            placeholder="Votre Nom" autofocus required/>
         <label for="Prenom"> Prénom : </label>
         <input type="text" style="width:200px; height:24px;font-size:18px" name="Prénom" id="Prenom" maxlength="50"
-            placeholder="Votre Prénom" />
+            placeholder="Votre Prénom" required/>
         <br />
         <label for="Adresse"> Adresse : </label>
         <input type="text" style="width: 350px; height:24px;font-size:18px" name="Adresse" id="Adresse" maxlength="200"
-            placeholder="N° Rue" />
+            placeholder="N° Rue" required/>
         
         <br />
         <label for="Code Postal"> Code Postal : </label>
-        <input type="number" style="width:200px; height:24px;font-size:18px" name="Code Postal" id="Code Postal"
-            maxlength="5" placeholder="Code Postal" />
+        <input type="number" style="width:200px; height:24px;font-size:18px" background-color= "#00FF00" name="Code Postal" id="Code Postal"
+            maxlength="5" placeholder="Code Postal"required />
         <label for="Ville"> Ville : </label>
         <input type="Ville" style="width:200px; height:24px;font-size:18px" name="Ville" id="Ville" maxlength="20"
-            placeholder="Ville" />
+            placeholder="Ville" required />
         <br />
         <label for="telephone"> Téléphone : </label>
         <input type="tel" style="width:200px; height:24px;font-size:18px" name="téléphone" id="telephone" maxlength="15"
-            placeholder="N° Téléphone" />
+            placeholder="N° Téléphone" required />
         <br />
         <label for="mail"> Mail : </label>
         <input type="text" style="width:350px; height:24px;font-size:18px" name="mail" id="mail" maxlength="50"
-            placeholder="mail" />
+            placeholder="mail"required  />
         <br />
-        <label for="date"> Date de réservation : </label>
-        <input type="datetime" style="width:200px; height:24px;font-size:18px" name="date" id="date" maxlength=""
-            placeholder="Date" />
+        <label for="date"> Date de réservation </label>
+        <input type="date" required />
+        
         <label for="Reservation"> Réservation : </label>
         <input type="number" style="width:200px; height:24px;font-size:18px" name="Réservation" id="Reservation"
-            maxlength="3" placeholder="Nombre de personnes" />
+            maxlength="3" placeholder="Nombre de personnes" required />
         <br />
         <label> Message : </label>
         <br />
