@@ -193,3 +193,9 @@ footer
 {
    background-color: rgb(46, 1, 8);
 }
+
+.format
+{
+   line-height: 40px;
+   font-size:20px;
+}
